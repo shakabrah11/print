@@ -1,0 +1,11 @@
+---
+application:
+  name: "print"
+  project: "print"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-print"
+  routes:
+  - application_name: "print"
+    paths:
+    - "/*"
